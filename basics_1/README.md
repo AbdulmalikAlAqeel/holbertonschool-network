@@ -1,6 +1,6 @@
 # Holberton School - Networking (Basics 1)
 
-This repository contains tasks and scripts covering fundamental networking concepts, including IP addressing (`localhost`, `127.0.0.1`, `0.0.0.0`), host configuration (`/etc/hosts`), and active network interfaces.
+This repository contains tasks and scripts covering fundamental networking concepts, including IP addressing (`localhost`, `127.0.0.1`, `0.0.0.0`), host configuration (`/etc/hosts`), active network interfaces, and socket connection listening via Netcat.
 
 ## Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
@@ -22,3 +22,26 @@ This repository contains tasks and scripts covering fundamental networking conce
   ```bash
   chmod +x 0-change_your_home_IP
   sudo ./0-change_your_home_IP
+```
+
+* 1. Show attached IPs
+**File: 1-show_attached_IPs
+
+Description: A Bash script that displays all active IPv4 addresses on the machine it is executed on.
+
+* **Usage:**
+```Bash
+chmod +x 1-show_attached_IPs
+./1-show_attached_IPs
+```
+
+* 2. Port listening on localhost
+**File: 2-port_listening_on_localhost
+
+Description: A Bash script that listens on port 98 on localhost using netcat (nc).
+
+* **Usage:**
+```Bash
+chmod +x 2-port_listening_on_localhost
+sudo ./2-port_listening_on_localhost
+```
